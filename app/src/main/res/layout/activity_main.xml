@@ -32,17 +32,18 @@
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
             android:ems="10"
-            android:id="@+id/intro"
+            android:id="@+id/dollarField"
             android:layout_gravity="center_horizontal"
             android:paddingTop="100dp" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Convert"
-            android:id="@+id/convert"
+            android:id="@+id/convertButton"
             android:layout_gravity="center_horizontal"
             android:background="#5757f1"
-            android:layout_marginTop="180dp" />
+            android:layout_marginTop="180dp"
+            android:onClick="convert" />
 
 
     </android.support.v7.widget.CardView>
