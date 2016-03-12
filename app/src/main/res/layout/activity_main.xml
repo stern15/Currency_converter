@@ -8,63 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.semasuka.converter.MainActivity"
-    android:onClick="clickMe">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/helloWorld"
-        style="@style/Widget.AppCompat.Light.ActionBar.TabView"
-        android:background="@color/abc_search_url_text_normal"
-        android:minHeight="90dp"
-        android:minWidth="190dp"
-        android:paddingTop="20dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="30dp"
-        android:textColor="#1713e6"
-        android:textSize="45sp"
-        android:layout_marginTop="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="I love Android"
-        android:id="@+id/textView"
-        style="@style/AppTheme"
-        android:textColor="#fee100"
-        android:textSize="60sp"
-        android:padding="5dp"
-        android:layout_alignWithParentIfMissing="false"
-        android:allowUndo="false"
-        android:autoText="false"
-        android:backgroundTint="#452de4"
-        android:background="#400f0f"
-        android:backgroundTintMode="multiply"
-        android:layout_below="@+id/helloWorld"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="31dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Click me!"
-        android:id="@+id/button2"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="#e42626"
-        android:onClick="clickMe" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textField"
-        android:layout_marginTop="36dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+    android:onClick="clickMe"
+    android:background="@drawable/currencies">
 
 </RelativeLayout>
