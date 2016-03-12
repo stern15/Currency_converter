@@ -14,10 +14,9 @@
     <android.support.v7.widget.CardView
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:layout_gravity="center_horizontal"
         cardview:cardElevation="25dp"
         cardview:cardCornerRadius="15dp"
-        android:layout_marginTop="110dp">
+        android:layout_marginTop="135dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,11 +34,19 @@
             android:ems="10"
             android:id="@+id/intro"
             android:layout_gravity="center_horizontal"
-            android:paddingTop="110dp" />
-
+            android:paddingTop="100dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert"
+            android:id="@+id/convert"
+            android:layout_gravity="center_horizontal"
+            android:background="#5757f1"
+            android:layout_marginTop="180dp" />
 
 
     </android.support.v7.widget.CardView>
+
 
 
 </LinearLayout>
