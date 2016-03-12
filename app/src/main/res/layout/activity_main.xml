@@ -10,7 +10,9 @@
     tools:context="com.semasuka.converter.MainActivity"
     android:background="@drawable/currencies"
     android:textAlignment="center"
-    android:touchscreenBlocksFocus="true">
+    android:touchscreenBlocksFocus="true"
+    android:backgroundTintMode="src_over"
+    android:backgroundTint="#93ffffff">
 
 
     <android.support.v7.widget.CardView
@@ -19,7 +21,8 @@
         android:layout_gravity="center"
         android:layout_width="350dp"
         android:layout_height="300dp"
-        card_view:cardCornerRadius="4dp"
+        card_view:cardCornerRadius="15dp"
+        card_view:cardElevation="25dp"
         android:measureAllChildren="false"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
