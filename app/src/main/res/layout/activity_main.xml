@@ -1,14 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.semasuka.converter.MainActivity"
-    android:onClick="clickMe"
-    android:background="@drawable/currencies">
+    android:background="@drawable/currencies"
+    android:textAlignment="center"
+    android:touchscreenBlocksFocus="true">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        card_view:cardCornerRadius="4dp"
+        android:measureAllChildren="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="fill_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter the amount in dollars"
+            android:id="@+id/textView"
+            android:textSize="25sp"
+            android:layout_alignTop="@+id/card_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textColor="#000000"
+            android:minWidth="0dp"
+            android:layout_marginLeft="30dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp" />
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
 
 </RelativeLayout>
